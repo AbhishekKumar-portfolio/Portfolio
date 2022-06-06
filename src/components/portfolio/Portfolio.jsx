@@ -54,7 +54,7 @@ export const Portfolio = () => {
             <img src={port3} alt="" />
           </div>
           <h3>Apartment Management System</h3>
-          <div className="portfolio_item_cta"><a href="https://github.com/education-technology/education-technology.github.io" target="blank" className='btn'>Github</a>
+          <div className="portfolio_item_cta"><a href="http://aptmgmt.epizy.com/?i=1" target="blank" className='btn'>Github</a>
             <a href="https://education-technology.github.io/" target="blank" className='btn btn-primary'>Live Demo</a></div>
             
            
