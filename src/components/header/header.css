@@ -42,14 +42,14 @@ header {
 /* ========= ME ==============*/
 .me {
     background: linear-gradient(var(--color-primary), transparent);
-    width: 22rem;
+    width: 20rem;
     height: 25rem;
     position: absolute;
     left: calc(50% - 10rem);
     margin-top: 3rem;
     border-radius: 10rem 10rem 0 0;
     overflow: hidden;
-    padding: 3rem 1rem 1rem 1rem;
+    padding: 1rem 1rem 1rem 1rem;
 }
 
 /* =============== SCROLL DOWN  ==========*/

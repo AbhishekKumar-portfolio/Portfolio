@@ -26,7 +26,7 @@ export const Footer = () => {
         <a href="https://www.telegram.me/creativeabhi143" target="_blank" ><FaTelegram/></a>
       </div>
       <div className="footer_copyright">
-        <small>&copy; CREATIVEABHI13 (Abhishek Kumar). All rights reserved &copy;2022</small>
+        <small>&copy; CREATIVEABHI13 (Abhishek Kumar). All rights reserved &copy;2023</small>
       </div>
   </footer>
   )
