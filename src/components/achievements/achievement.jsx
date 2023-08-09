@@ -28,79 +28,45 @@ import 'swiper/css/pagination';
 export const Achievement = () => {
   return (
     
-    <section id="testimonials">
-      <h5>My Achievement</h5>
+    <section id="portfolio">
+      <h5>My achievement</h5>
       <h2>Achievement</h2>
       <br /><br />
-      <Swiper className="container testimonials_container"
-      modules={[Pagination]}
-      spaceBetween={40}
-      slidesPerView={1}
-      navigation
-      pagination={{ clickable: true }} >
+      <div className="container portfolio_container1">
+        
+
+        <article className='portfolio_item'>
+          <div className="portfolio_item_img">
+            <img src={a5} alt="" />
+          </div>
+          <h3>Blue Horn </h3>
+        
+        </article>
+  <article className='portfolio_item'>
+          <div className="portfolio_item_img">
+            <img src={a7} alt="" />
+          </div>
+          <h3>Distriction Award</h3>
+        </article>
+        <article className='portfolio_item'>
+          <div className="portfolio_item_img">
+            <img src={a1} alt="" />
+          </div>
+          <h3>Smart India Hackathon 2022</h3>
+        </article>
+        <article className='portfolio_item'>
+          <div className="portfolio_item_img">
+            <img src={a6} alt="" />
+          </div>
+          <h3>Published Final Year Project Paper 2023</h3>
+  
+
+        </article>
       
-
-        <SwiperSlide className="testimonial">
-          <div className="client_avatar">
-            <img src={a1} alt="Avatar One" />
-          </div>
-            <h5 className="client_name">SIH 2022</h5>
-           
         
-        </SwiperSlide>
-<SwiperSlide className="testimonial">
-          <div className="client_avatar">
-            <img src={a2} alt="Avatar One" />
-          </div>
-            <h5 className="client_name">SIH 2022</h5>
-           
-        
-        </SwiperSlide>
-
-        <SwiperSlide className="testimonial">
-          <div className="client_avatar">
-            <img src={a3} alt="Avatar One" />
-          </div>
-            <h5 className="client_name">SIH 2022</h5>
-           
-        
-        </SwiperSlide>
-
-       <SwiperSlide className="testimonial">
-          <div className="client_avatar">
-            <img src={a4} alt="Avatar One" />
-          </div>
-            <h5 className="client_name">SIH 2022</h5>
-           
-        
-              </SwiperSlide>
-              <SwiperSlide className="testimonial">
-          <div className="client_avatar">
-            <img src={a5} alt="Avatar One" />
-          </div>
-            <h5 className="client_name">Blue Horn Award 2013</h5>
-           
-        
-              </SwiperSlide>
-              
-              <SwiperSlide className="testimonial">
-          <div className="client_avatar">
-            <img src={a6} alt="Avatar One" />
-          </div>
-            <h5 className="client_name">Published Paper</h5>
-           
-        
-              </SwiperSlide>
-              <SwiperSlide className="testimonial">
-          <div className="client_avatar">
-            <img src={a7} alt="Avatar One" />
-          </div>
-            <h5 className="client_name">10th distriction</h5>
-           
-        
-        </SwiperSlide>
-      </Swiper>
+      </div>
     </section>
+
     
     
   )

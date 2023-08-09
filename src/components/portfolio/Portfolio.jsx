@@ -7,6 +7,9 @@ import port3 from "../../assets/port3.jpg"
 import port4 from "../../assets/port4.jpg"
 import port5 from "../../assets/port5.jpg"
 import port6 from "../../assets/port6.jpg"
+import port7 from "../../assets/port7.png"
+import port8 from "../../assets/port8.jpg"
+import port9 from "../../assets/port9.PNG"
 
 
 export const Portfolio = () => {
@@ -79,6 +82,42 @@ export const Portfolio = () => {
           <div className="portfolio_item_cta">
             <a href="https://github.com/creativeabhi13/HandCricket" target="blank" className='btn'>Github</a>
             <a href="https://education-technology.github.io/" target="blank" className='btn btn-primary'>Live Demo</a>
+
+          </div>
+
+        </article>
+        <article className='portfolio_item'>
+          <div className="portfolio_item_img">
+            <img src={port7} alt="" />
+          </div>
+          <h3>Youth Compass Application</h3>
+          <div className="portfolio_item_cta">
+            <a href="https://github.com/hshsni/YFS" target="blank" className='btn'>Github</a>
+            <a href="https://github.com/hshsni/YFS" target="blank" className='btn btn-primary'>Live Demo</a>
+
+          </div>
+
+        </article>
+        <article className='portfolio_item'>
+          <div className="portfolio_item_img">
+            <img src={port8} alt="" />
+          </div>
+          <h3>Course Registration Application</h3>
+          <div className="portfolio_item_cta">
+            <a href="https://github.com/creativeabhi13/Course-Registration-Application-" target="blank" className='btn'>Github</a>
+            <a href="https://github.com/creativeabhi13/Course-Registration-Application-" target="blank" className='btn btn-primary'>Live Demo</a>
+
+          </div>
+
+        </article>
+        <article className='portfolio_item'>
+          <div className="portfolio_item_img">
+            <img src={port9} alt="" />
+          </div>
+          <h3>Unit Converter Application</h3>
+          <div className="portfolio_item_cta">
+            <a href="https://github.com/hshsni/uid-project-2022" target="blank" className='btn'>Github</a>
+            <a href="https://github.com/creativeabhi13/Course-Registration-Application-" target="blank" className='btn btn-primary'>Live Demo</a>
 
           </div>
 

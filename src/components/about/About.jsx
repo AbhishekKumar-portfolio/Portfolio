@@ -24,27 +24,26 @@ function About() {
             <article className='about_card'>
               <FaAward className='about_icon' />
               <h5>Experience</h5>
-              <small>2+ Years Working</small>
+              <small>1+ Years Working</small>
             </article>
 
             <article className='about_card'>
               <FiUsers className='about_icon' />
               <h5>Client</h5>
-              <small>20+ WorldWIde</small>
+              <small>15+ WorldWIde</small>
             </article>
 
             <article className='about_card'>
               <VscFolderLibrary className='about_icon' />
               <h5>Projects</h5>
-              <small>25+ Completed </small>
+              <small>20+ Completed </small>
             </article>
           </div>
           <p>
-            A highly motivated software engineer seeking to get a position in a reputed company, where I can use my
-            skills and knowledge to learn new things and grow as a software developer.
-            Passionate about learning technical aspects and possess the ability to handle work pressure
-            and challenges in an efficient manner.Tech-savvy and a fast learner with innate communication skills and
-            curiosity for my role.
+ Full-stack Developer and working as software engineer at Dilabs System Pvt Ltd. 
+ Have Experience in Web development ,Wordpress, Application  Development and Social media Marketing.
+I have also Experience in Video editing, poster making, and Logo design. 
+Skilled in  C, C++, Python, Databases,Java,dart, HTML, Cascading Style Sheets (CSS), Reactjs, flutter, firebase, AR(Augmented reality), Mongo Db,Node js and VR(Virtual reality).
           </p>
 
           <a href="#contact" className='btn btn-primary' >Let's Talk</a>
