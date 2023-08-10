@@ -28,7 +28,7 @@ import 'swiper/css/pagination';
 export const Achievement = () => {
   return (
     
-    <section id="portfolio">
+    <section id="achievement">
       <h5>My achievement</h5>
       <h2>Achievement</h2>
       <br /><br />
