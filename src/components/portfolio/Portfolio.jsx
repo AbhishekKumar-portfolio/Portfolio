@@ -10,7 +10,10 @@ import port6 from "../../assets/port6.jpg"
 import port7 from "../../assets/port7.png"
 import port8 from "../../assets/port8.jpg"
 import port9 from "../../assets/port9.PNG"
-
+import port10 from "../../assets/port10.png"
+import port11 from "../../assets/port11.png"
+import port12 from "../../assets/port12.png"
+import port13 from "../../assets/port13.jpeg"
 
 export const Portfolio = () => {
   return (
@@ -122,6 +125,47 @@ export const Portfolio = () => {
           </div>
 
         </article>
+        <article className='portfolio_item'>
+          <div className="portfolio_item_img">
+            <img src={port10} alt="" />
+          </div>
+          <h3>Dilabs Systems Website </h3>
+          <div className="portfolio_item_cta">
+            <a href="https://dilabs.in/" target="blank" className='btn btn-primary'>Live Demo</a>
+          </div>
+
+        </article>
+        <article className='portfolio_item'>
+          <div className="portfolio_item_img">
+            <img src={port11} alt="" />
+          </div>
+          <h3>Tedlabs Ecommerce Website </h3>
+          <div className="portfolio_item_cta">
+            <a href="https://tedlabs.in/shop/" target="blank" className='btn btn-primary'>Live Demo</a>
+          </div>
+
+        </article>
+        <article className='portfolio_item'>
+          <div className="portfolio_item_img">
+            <img src={port13} alt="" />
+          </div>
+          <h3>Milkvilla Admin Dashboard </h3>
+          <div className="portfolio_item_cta">
+            <a href="https://dashboard.milkvilla.in/" target="blank" className='btn btn-primary'>Live Demo</a>
+          </div>
+
+        </article>
+        <article className='portfolio_item'>
+          <div className="portfolio_item_img">
+            <img src={port12} alt="" />
+          </div>
+          <h3>Milkvilla Ios Application </h3>
+          <div className="portfolio_item_cta">
+            <a href="https://apps.apple.com/in/app/milkvilla/id6496507516?platform=iphone" target="blank" className='btn btn-primary'>Live Demo</a>
+          </div>
+
+        </article>
+        
       </div>
     </section>
 

@@ -2,9 +2,9 @@ import React from 'react'
 import "./footer.css"
 import {FaFacebookF} from "react-icons/fa"
 import {FiInstagram} from "react-icons/fi"
-import {IoLogoTwitter} from "react-icons/io"
+import {IoLogoGithub} from "react-icons/io"
 import {RiYoutubeLine} from "react-icons/ri"
-import {FaTelegram} from "react-icons/fa"
+import {FaLinkedinIn} from "react-icons/fa"
 
 export const Footer = () => {
   return (
@@ -24,9 +24,9 @@ export const Footer = () => {
       <div className='footer_social'>
         <a href="https://www.facebook.com/creativeabhi13" target="_blank"> <FaFacebookF/></a>
         <a href="https://www.Instagram.com/creativeabhi13" target="_blank"><FiInstagram/></a>
-        <a href="https://www.twitter.com/creativeabhi13" target="_blank" ><IoLogoTwitter/></a>
         <a href="https://www.youtube.com/creativeabhi13" target="_blank" ><RiYoutubeLine/></a>
-        <a href="https://www.telegram.me/creativeabhi143" target="_blank" ><FaTelegram/></a>
+        <a href="https://github.com/creativeabhi13" target="_blank" ><IoLogoGithub/></a>
+        <a href="https://www.linkedin.com/in/creativeabhi13/" target="_blank" ><FaLinkedinIn/></a>
       </div>
       <div className="footer_copyright">
         <small>&copy; CREATIVEABHI13 (Abhishek Kumar). All rights reserved &copy;2023</small>
