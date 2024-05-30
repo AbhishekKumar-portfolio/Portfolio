@@ -7,6 +7,7 @@ import {RiYoutubeLine} from "react-icons/ri"
 import {FaLinkedinIn} from "react-icons/fa"
 
 export const Footer = () => {
+  let currentYear = new Date().getFullYear();
   return (
     <footer>
       <a href="#" className='footer_logo'>Abhishek Kumar</a>
@@ -29,7 +30,7 @@ export const Footer = () => {
         <a href="https://www.linkedin.com/in/creativeabhi13/" target="_blank" ><FaLinkedinIn/></a>
       </div>
       <div className="footer_copyright">
-        <small>&copy; CREATIVEABHI13 (Abhishek Kumar). All rights reserved &copy;2023</small>
+        <small>&copy; CREATIVEABHI13 (Abhishek Kumar). All rights reserved &copy;{currentYear}</small>
       </div>
   </footer>
   )
