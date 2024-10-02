@@ -23,11 +23,11 @@ export const Footer = () => {
          <li><a href="#contact">Contact</a></li>
       </ul>
       <div className='footer_social'>
-        <a href="https://www.facebook.com/creativeabhi13" target="_blank"> <FaFacebookF/></a>
-        <a href="https://www.Instagram.com/creativeabhi13" target="_blank"><FiInstagram/></a>
-        <a href="https://www.youtube.com/creativeabhi13" target="_blank" ><RiYoutubeLine/></a>
-        <a href="https://github.com/creativeabhi13" target="_blank" ><IoLogoGithub/></a>
-        <a href="https://www.linkedin.com/in/creativeabhi13/" target="_blank" ><FaLinkedinIn/></a>
+        <a href="https://www.facebook.com/creativeabhi13" target="blank"> <FaFacebookF/></a>
+        <a href="https://www.Instagram.com/creativeabhi13" target="blank"><FiInstagram/></a>
+        <a href="https://www.youtube.com/creativeabhi13" target="blank" ><RiYoutubeLine/></a>
+        <a href="https://github.com/creativeabhi13" target="blank" ><IoLogoGithub/></a>
+        <a href="https://www.linkedin.com/in/creativeabhi13/" target="blank" ><FaLinkedinIn/></a>
       </div>
       <div className="footer_copyright">
         <small>&copy; CREATIVEABHI13 (Abhishek Kumar). All rights reserved &copy;{currentYear}</small>
