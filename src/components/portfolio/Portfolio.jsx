@@ -17,6 +17,10 @@ import port13 from "../../assets/port13.jpeg"
 import port16 from "../../assets/port16.png"
 import port15 from "../../assets/port15.png"
 import port14 from "../../assets/port14.png"
+import port17 from "../../assets/port17.png"
+import port18 from "../../assets/port18.png"
+import port19 from "../../assets/port19.png"
+
 
 export const Portfolio = () => {
   return (
@@ -174,6 +178,25 @@ export const Portfolio = () => {
        
             <a href="https://github.com/creativeabhi13/Mern-Stack/tree/main/Capstone_Project_Ecommerce_Application" target="blank" className='btn'>Github</a>
             <a href="https://github.com/creativeabhi13/Mern-Stack/tree/main/Capstone_Project_Ecommerce_Application" target="blank" className='btn btn-primary'>Live Demo</a>
+          </div>
+
+        </article>
+        <article className='portfolio_item'>
+          <div className="portfolio_item_img">
+            <img src={port17} alt="" />
+          </div>
+          <div className="portfolio_item_img">
+            <img src={port18} alt="" />
+          </div>
+          <div className="portfolio_item_img">
+            <img src={port19} alt="" />
+          </div>
+          <h3>Customer Relationship Management-CRM</h3>
+          
+          <div className="portfolio_item_cta">
+       
+            <a href="#" target="blank" className='btn'>Github</a>
+            <a href="https://dashboard.atsinnovations.in/" target="blank" className='btn btn-primary'>Live Demo</a>
           </div>
 
         </article>
